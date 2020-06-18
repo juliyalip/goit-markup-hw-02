@@ -7,7 +7,10 @@
     --activ-button-color: #2196F3;
     --activ-text-color:  #2196F3;
     --footer-fon-color: #2F303A;
-    --footer-text-color: #FFFFFF;}
+    --footer-text-color: #FFFFFF;
+    --logo-color: #2196F3;
+    --section-komanda-color: #F5F4FA;
+    --color-adress-footer: rgba(255, 255, 255, 0.6);}
 
 
 body { color: var(--primary-text-color);
@@ -36,15 +39,15 @@ background-color: var(--primery-fon);
 .current {color: var(--activ-text-color);}
            
 .shapka {    
-     height: 680px;
-    text-align: center;
+        text-align: center;
      }  
 
 
      /*centralnaya knopka*/  
-.btn-start {display: inline-block;
-    background-color: var(--activ-button-color);
-    border-radius: 4px;
+.btn-start {
+display: inline-block;
+background-color: var(--activ-button-color);
+border-radius: 4px;
 color: var(--footer-text-color);
 padding: 10px 32px;
 font-size: 16px;
@@ -57,64 +60,64 @@ line-height: 1.9;}
     font-weight: 700px;
     line-height: 1.19;}    
 
-span {color: #2196F3;}
-     
+span {color: var(--logo-color);}
+
+
+
 h1 {margin-top: 200px;
 font-size: 44px;
 line-height: 1.88;}     
-    
-.content {
-    padding-left: 215px;
-    padding-right: 215px;
-         }
+
+.zaglawn {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.14;
+    font-size: 14px;
+       }
      
-.pole {
-    width: 270px;
-      }
 .text-stile {
     color: var(--stile-text-color)
     font-size: 16px;
 }
 
 .text-pole { font-size: 14px;
-    line-height: 1.7;}
+    line-height: 1.7;
+color: var(--stile-text-color);}
 
 
 /*personal*/
-.fon {background-color: var(--color-fon-color);}
+.komanda {background-color: var(--section-komanda-color);}
 
-.glava
+.title-section
     {
     font-size: 36px;
     margin-top: 94px;
     display: inline-block;
-    text-align: center;
+    line-height: 1.7;
     }   
 
 li {list-style: none;}
 
-.social-links {line-height: 1.8;}
+.social-links {line-height: 1.8; 
+    color: var(--stile-text-color);}
 
 
 footer {
-    padding-left: 215px;
-    padding-right: 215px;
     background-color: var(--footer-fon-color);
     color: var(--footer-text-color);
+  font-size: 14px;
+  line-height: 1.19;
       }
  
-.adres-footer {color: rgba(255, 255, 255, 0.6); 
-    line-height: 1.7;} 
+.adres-footer {color: var(--color-adress-footer) ; 
+    line-height: 1.7;
+      } 
 
 footer > a {color: var(--footer-text-color);}
-
-.zaglawn {
-    font-weight: 700;
-    text-transform: uppercase;
-     line-height: 1.14;
-}
-
  
+.copirayt {color: var(--stile-text-color);}
+
+
 
       /* Vkladka Portfolio*/
 .button 
@@ -148,4 +151,4 @@ background-color: #2196F3;}
 .subtitle {
        line-height: 1.9;
        color: var(--stile-text-color);
-}          
+       }          
